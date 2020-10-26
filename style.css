@@ -1,0 +1,37 @@
+body{
+	background: pink;
+}
+.maindiv{
+	margin-top: 100px;
+	margin-right: 200px;
+	margin-left: 170px;
+	width: 75%;
+	border: 5px solid green;
+	text-align: center;
+}
+button{
+	height: 50px;
+	width: 150px;
+	color: white;
+	font-size: 30px;
+	background-color: red;
+	border-radius: 50%;
+	border: 1px solid blue;
+	outline: none;
+	margin: 15px;
+}
+#resultdiv{
+	font-size: 80px;text-align: center;
+	animation-name: random;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+
+}
+@keyframes random{
+	from{
+		color: red;
+	}
+	
+	to{color: black;}
+
+}
